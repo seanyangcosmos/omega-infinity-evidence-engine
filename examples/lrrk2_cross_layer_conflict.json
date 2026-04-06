@@ -1,0 +1,9 @@
+{
+  "target": "LRRK2",
+  "genetic_support": true,
+  "mechanistic_support": true,
+  "biomarker_signal": partial,
+  "clinical_signal": null,
+  "topology": "cross_layer_conflict",
+  "interpretation": "strong upstream anchoring with incomplete downstream propagation"
+}
