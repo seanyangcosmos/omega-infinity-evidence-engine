@@ -1,14 +1,20 @@
-# Evidence Topology Overview
+# Evidence Topology Schema
 
-Omega Infinity models biomedical evidence as a structured topology rather than a narrative summary.
+Omega Infinity represents translational reasoning as structured topology outputs.
 
-Instead of asking whether evidence exists, the system evaluates how evidence propagates across layers:
+This schema defines the minimal machine-readable interface for cross-layer evidence arbitration.
 
-- mechanistic
-- genetic
-- biomarker
-- intervention
-- clinical
-- durability
+---
 
-This allows structured arbitration between conflicting or incomplete translational signals.
+## Topology output structure
+
+Each reasoning result is represented as:
+
+```json
+{
+  "alignment": "...",
+  "reasoning_type": "...",
+  "constraint": "...",
+  "conclusion": "...",
+  "confidence": "..."
+}
