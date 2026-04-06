@@ -1,52 +1,40 @@
-# Omega Infinity Evidence Engine
+## Example reasoning targets
 
-Omega Infinity is a topology-based biomedical reasoning framework designed to evaluate how evidence propagates across translational layers.
+The engine can be applied to evaluate:
 
-The framework classifies cross-layer consistency between:
-
-mechanistic evidence  
-genetic validation  
-biomarker response  
-intervention outcomes  
-clinical endpoints  
-durability signals  
-
+- target validation consistency
+- biomarker reliability
+- surrogate endpoint stability
+- mechanism-to-clinic translation
+- intervention durability signals
+- translational failure modes
 
 ---
 
-## Framework documentation
+## Intended users
 
-Overview  
-docs/overview.md
+Omega Infinity is designed for:
 
-Framework scope  
-docs/framework-scope.md
-
-Reasoning pipeline  
-docs/reasoning-pipeline.md
-
-Evidence topology classes  
-docs/topology-classes.md
-
+- translational researchers
+- target validation teams
+- biomedical strategy groups
+- scientific due-diligence analysts
+- evidence synthesis pipelines
 
 ---
 
-## Machine-readable schema
+## Positioning
 
-schema/topology_schema.md
+Omega Infinity is not a literature summarization tool.
 
+It is a topology-based reasoning layer for structured biomedical evidence evaluation.
+
+The framework is intended to support:
+
+- translational inference
+- evidence alignment diagnostics
+- cross-layer validation analysis
 
 ---
 
-## Example topology outputs
-
-examples/alzheimers_surrogate_disconnect.json
-
-
----
-
-## Purpose
-
-Omega Infinity provides a structural arbitration layer between heterogeneous biomedical evidence types.
-
-It is designed for translational research, target validation, and evidence-based decision-support systems.
+## Repository structure
