@@ -1,40 +1,52 @@
+# Omega Infinity Evidence Engine
 
-Modern biomedical decision-making suffers from a structural limitation:
+Omega Infinity is a topology-based biomedical reasoning framework designed to evaluate how evidence propagates across translational layers.
 
-evidence is abundant, but **cross-layer consistency is rarely evaluated explicitly**.
+The framework classifies cross-layer consistency between:
 
-Omega Infinity addresses this by transforming evidence integration into a topology problem rather than a narrative interpretation problem.
+mechanistic evidence  
+genetic validation  
+biomarker response  
+intervention outcomes  
+clinical endpoints  
+durability signals  
 
----
-
-## Core concept: Evidence topology
-
-Instead of asking:
-
-> Is there evidence?
-
-Omega Infinity asks:
-
-> How does evidence propagate across layers?
-
-Example topology classes include:
-
-- cross-layer conflict
-- surrogate disconnect
-- durability instability
-- direction ambiguity
-- translational constraint
-
-These structures form the basis of reproducible reasoning rather than descriptive review.
 
 ---
 
-## Example reasoning output
+## Framework documentation
 
-```json
-{
-  "alignment": "partial",
-  "reasoning_type": "translational_constraint",
-  "constraint": "mechanistic_support_without_clinical_translation",
-  "conclusion": "translationally_limited"
-}
+Overview  
+docs/overview.md
+
+Framework scope  
+docs/framework-scope.md
+
+Reasoning pipeline  
+docs/reasoning-pipeline.md
+
+Evidence topology classes  
+docs/topology-classes.md
+
+
+---
+
+## Machine-readable schema
+
+schema/topology_schema.md
+
+
+---
+
+## Example topology outputs
+
+examples/alzheimers_surrogate_disconnect.json
+
+
+---
+
+## Purpose
+
+Omega Infinity provides a structural arbitration layer between heterogeneous biomedical evidence types.
+
+It is designed for translational research, target validation, and evidence-based decision-support systems.
