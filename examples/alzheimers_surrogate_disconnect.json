@@ -1,0 +1,14 @@
+{
+  "entity": "amyloid reduction therapies",
+  "indication": "Alzheimer's disease",
+
+  "alignment": "partial_alignment",
+
+  "reasoning_type": "surrogate_disconnect",
+
+  "constraint": "biomarker_signal_without_outcome_improvement",
+
+  "conclusion": "translationally_limited",
+
+  "confidence": "high"
+}
